@@ -68,7 +68,7 @@ class GetScoreFrame(customtkinter.CTkFrame):
         
         #実行ボタン
         self.get_score_button = customtkinter.CTkButton(master=self,fg_color="transparent",border_width=2,text_color=("gray10","#DCE4EE"),
-                                                     command=lambda:self.get_score_button_callback(self.URL_textbox),text="譜面データ取得",font=self.fonts)
+                                                     command=self.get_score_button_callback,text="譜面データ取得",font=self.fonts)
         self.get_score_button.grid(row=1,column=1,padx=10,pady=(0,10))
         
             
