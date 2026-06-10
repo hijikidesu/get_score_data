@@ -30,6 +30,10 @@ SDVX譜面保管所(https://sdvx.in/ )にある譜面画像を譜面データに
 
 ・pillow 12.0.0
 
+・tk 8.6.15 
+
+・customtkinter 5.2.2 
+
 ・selenium 4.41.0 
 
 ・requests 2.32.5 
