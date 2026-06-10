@@ -2,8 +2,6 @@ import cv2
 import numpy as np
 import pandas as pd
 from PIL import Image
-import pytesseract
-import pyocr
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import requests
